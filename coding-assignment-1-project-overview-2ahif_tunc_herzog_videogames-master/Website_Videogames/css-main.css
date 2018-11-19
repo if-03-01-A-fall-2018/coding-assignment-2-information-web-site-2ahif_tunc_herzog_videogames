@@ -116,3 +116,14 @@ hr {
 p {
 	text-align: justify;
 }
+
+p > button {
+    float: right;
+    margin: 20px;
+    width: 10%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 0px;
+    border-radius: 12px;
+}
