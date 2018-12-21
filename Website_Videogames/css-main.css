@@ -1,6 +1,6 @@
 body {
   background: #222233;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   line-height: 1.5;
   font-size: 20px;
@@ -29,10 +29,12 @@ a {
 
 .sensorama {
   float: right;
+  padding-left: 2.5%;
 }
 
 .steam {
   float: left;
+  padding-right: 2.5%;
   width: 150px;
   height: 150px;
 }
@@ -45,12 +47,14 @@ a {
 
 .battle {
   float: left;
+  padding-right: 2.5%;
   width: 150px;
   height: 150px;
 }
 
 .uplay {
   float: right;
+  padding-left: 2.5%;
   width: 150px;
   height: 150px;
   padding-top: 50px;
@@ -75,9 +79,11 @@ a {
 }
 
 .nav {
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     float: left;
-    padding-right: 350px;
+    padding-right: 500px;
     padding-left: 50px;
 }
 
@@ -89,7 +95,7 @@ ul {
   right: 0;
   margin: 0;
   padding: 0;
-  height: 80px;
+  height: 60px;
   width: 100%;
 	overflow: hidden;
 	position: fixed;
@@ -163,7 +169,7 @@ form > button {
   background-position: center;
   text-align: center;
   border-radius: 12px;
-  right: 400px;
+  right: 30%;
 }
 
 button:hover {background-color: #000;}
